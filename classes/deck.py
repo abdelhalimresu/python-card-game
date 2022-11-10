@@ -26,4 +26,5 @@ class Deck:
         shuffle(self.cards)
 
     def pop_card(self):
-        return self.cards.pop(0)
+        if len(self.cards):
+            return self.cards.pop(0)
