@@ -15,3 +15,5 @@ Player2 |  3
 Player3 |  4
 Player4 |  1
 ```
+
+### Credits to [LearnPythonWithRune](https://www.learnpythonwithrune.org/master-object-oriented-programming-by-creating-a-card-game/)
