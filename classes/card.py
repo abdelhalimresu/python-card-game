@@ -10,3 +10,8 @@ class Card:
     
     def __str__(self):
         return self.suits[self.suit] + self.ranks[self.rank]
+
+    def __lt__(self, other):
+        if self.suit != other.suit:
+            return self.suit < other.suit
+        return self.rank < other.rank
